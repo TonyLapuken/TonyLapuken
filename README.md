@@ -10,9 +10,6 @@
   </ul>
 </div>
 
-**<h3 align="left">Connect with me:</h3>** 
-<p align="left"><a href="https://www.linkedin.com/in/www.linkedin.com/in/tony-lapuken-b1992b23a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="tonylapuken@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" style="margin-right: 4px"></a></p>
-
  **<h3 align="left">Fullsnack developer🧑🏽‍💻 with a love for good code and great snacks. Whether it’s crafting awesome UIs or making sure the backend is rock solid, I’m here for the fun of turning ideas into reality... Snack breaks included!🍩</h3>**
 
 **<h3 align="left">Rapid Fire</h3>**

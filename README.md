@@ -59,14 +59,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=TonyLapuken&theme=react&hide_title=false&layout=compact&langs_count=6&hide_progress=false&card_width=400" alt="Top Languages" />
-</p>
-
----
-
 ## ☕ Let’s Connect
 
 <p align="center">

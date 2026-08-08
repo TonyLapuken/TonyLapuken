@@ -1,77 +1,245 @@
-<!-- Banner -->
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/79731568097599.5b50bca477735.jpg" width="100%" alt="Tony Lapuken Banner" />
+<h1 align="center">GET /tony</h1>
+<p align="center"><i>Returns a Tony Lapuken, fully rendered.</i></p>
 
-<h1 align="center">Hi, I'm Tony Lapuken 👋</h1>
-
-<p align="center">
-  <strong>Fullsnack Developer 🧑🏽‍💻 | UI Crafter | Backend Tamer | Code Snacker 🍩</strong><br>
-  I love turning cool ideas into polished digital experiences—with a snack in hand.
-</p>
-
----
-
-## 🚀 About Me
-
-- 💼 Currently building a **Flutter** mobile app
-- 🌱 Learning **Angular** (and loving the component structure!)
-- 💬 Ask me about **development, design, or debugging ideas**
-- 🧠 I enjoy balancing clean UI with solid architecture
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-  
-  <!-- Frontend -->
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React" height="30" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white" alt="Angular" height="30" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" alt="Flutter" height="30" />
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="30" />
-  <img src="https://img.shields.io/badge/Material_UI-007FFF?logo=material-ui&logoColor=white" alt="Material UI" height="30" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0085FF?logo=framer&logoColor=white" alt="Framer Motion" height="30" />
-  <img src="https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white" alt="Three.js" height="30" />
-
-  <!-- Backend -->
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js" height="30" />
-  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" alt="Express" height="30" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white" alt="MongoDB" height="30" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" height="30" />
-
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white" alt="Dart" height="30" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" height="30" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1C?logo=javascript&logoColor=black" alt="JavaScript" height="30" />
-  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white" alt="Java" height="30" />
-  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++" height="30" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" height="30" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go" height="30" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin" height="30" />
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?logo=matlab&logoColor=white" alt="MATLAB" height="30" />
-
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white" alt="VS Code" height="30" />
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA" height="30" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" alt="Postman" height="30" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" alt="Figma" height="30" />
-  <img src="https://img.shields.io/badge/Illustrator-FF9A00?logo=adobe-illustrator&logoColor=white" alt="Adobe Illustrator" height="30" />
-</div>
-
----
-
-## ☕ Let’s Connect
+<!--
+  ASSUMPTION: GitHub username is unconfirmed. This README uses "TonyLapuken"
+  for every dynamic badge/service URL (readme-typing-svg, github-readme-stats,
+  streak-stats, trophy, komarev, and every github.com/TonyLapuken link) because
+  it matches the pattern of the other confirmed handles: tonylapuken@gmail.com,
+  linkedin.com/in/tonylapuken, twitter.com/tonylapuken. If the real GitHub
+  handle differs, swap every "TonyLapuken" occurrence in this file.
+-->
 
 <p align="center">
-  <a href="mailto:tonylapuken@gmail.com"><img src="https://img.shields.io/badge/Gmail-tonylapuken@gmail.com-red?logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/tonylapuken"><img src="https://img.shields.io/badge/LinkedIn-Tony%20Lapuken-blue?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="https://twitter.com/tonylapuken"><img src="https://img.shields.io/badge/Twitter-@tonylapuken-1DA1F2?logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=180&section=header&text=api.tonylapuken.dev&fontSize=38&fontColor=00ff9d&animation=fadeIn&fontAlignY=38&desc=Fullsnack%20Developer%20%7C%20UI%20Crafter%20%7C%20Backend%20Tamer%20%7C%20Code%20Snacker%20%7C%20End-to-End%20Mobile%20Dev&descAlignY=58&descSize=14" alt="banner" width="100%"/>
 </p>
+
+<p align="center">
+  <a href="https://github.com/TonyLapuken">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FF9D&center=true&vCenter=true&width=600&lines=const+dev+%3D+await+fetch('%2Ftony');;fullstack+%E2%89%88+fullsnack;shipping+clean+UI+%2B+solid+backend;currently+learning%3A+Cloud+Engineering;mobile+apps%2C+end+to+end" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-200_OK-39d353?style=for-the-badge&logo=statuspage&logoColor=white" alt="status"/>
+  <img src="https://img.shields.io/badge/method-GET-58a6ff?style=for-the-badge" alt="method"/>
+  <img src="https://img.shields.io/badge/Content--Type-application%2Fjson-orange?style=for-the-badge" alt="content-type"/>
+  <img src="https://img.shields.io/badge/uptime-%E2%88%9E%20(always%20shipping)-brightgreen?style=for-the-badge" alt="uptime"/>
+  <img src="https://img.shields.io/badge/caffeine--dependency-critical-red?style=for-the-badge" alt="caffeine"/>
+</p>
+
+<p align="center"><sub>Base URL: <code>https://github.com/TonyLapuken</code> &nbsp;·&nbsp; API Version: <code>v∞</code> (continuously deployed, no breaking changes intended)</sub></p>
 
 ---
 
-> 🧠 _"Code with clarity, build with care, snack with joy."_ 🍫  
-> – Tony Lapuken
+## Request
 
-<!-- TonyLapuken/TonyLapuken is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
+```http
+GET /tony HTTP/1.1
+Host: github.com
+Authorization: Bearer coffee_and_curiosity
+Accept: application/json
+X-Client: recruiter, collaborator, or curious dev
+```
+
+## Response
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Powered-By: clean-UI + solid-backend-architecture
+Cache-Control: no-cache, always-shipping-something-new
+```
+
+```json
+{
+  "name": "Tony Lapuken",
+  "role": "Fullsnack Developer",
+  "aka": ["UI Crafter", "Backend Tamer", "Code Snacker", "End-to-End Mobile Dev"],
+  "status": "online, mid-build",
+  "currentlyBuilding": "a Flutter mobile app, end to end (design, build, ship)",
+  "currentlyLearning": "Cloud Engineering — Google Cloud, going deep",
+  "philosophy": "Code with clarity, build with care, snack with joy.",
+  "stack": {
+    "frontend": ["React", "Angular", "Flutter", "Tailwind CSS", "Material UI", "Framer Motion", "Three.js"],
+    "backend": ["Node.js", "Express", "NestJS", "ASP.NET", "MongoDB", "MySQL", "SQL Server"],
+    "languages": ["Dart", "TypeScript", "JavaScript", "Java", "C++", "Python", "Go", "Kotlin", "MATLAB"],
+    "tools": ["VS Code", "IntelliJ IDEA", "Postman", "Figma", "Adobe Illustrator"],
+    "cloud": ["Google Cloud"]
+  },
+  "links": {
+    "email": "tonylapuken@gmail.com",
+    "linkedin": "linkedin.com/in/tonylapuken",
+    "twitter": "twitter.com/tonylapuken"
+  }
+}
+```
+
+<details>
+<summary><b>Schema notes</b> (click to expand)</summary>
+<br/>
+
+- `stack.frontend` and `stack.backend` are both populated — this endpoint does not return `null` for either, by design.
+- `stack.cloud` is the newest field in this schema, added the moment Google Cloud entered the rotation.
+- `currentlyBuilding` and `currentlyLearning` are mutable fields; they get `PATCH`ed fairly often.
+- `philosophy` is immutable. It has not changed and is not expected to.
+
+</details>
+
+---
+
+## `GET /tony/status` — live process table
+
+*A lightweight health check. No secrets, just what's currently running.*
+
+```text
+$ curl https://github.com/TonyLapuken/status
+
+USER   PID   STATE      PROCESS
+tony   101   running    ui_polish_daemon           # never fully idle
+tony   202   running    backend_architecture_guard # keeps services in line
+tony   303   building   flutter_mobile_app         # active project
+tony   404   learning   gcp_cloud_engineering      # racking up billing alerts responsibly
+tony   ∞     sleeping   snack_break_scheduler       # wakes for chips, non-negotiable
+```
+
+> No process ever reports `FAILED` for long — see `debugging` in the changelog below.
+
+---
+
+## Dependencies Manifest
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**frontend + backend + cloud**
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" />
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+<img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+**languages + tools**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
+<br/><br/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" />
+
+</td>
+</tr>
+</table>
+
+<sub>Every dependency above is a fact, not a filler badge — no version is stubbed in and none is left unlisted.</sub>
+
+---
+
+## Authentication
+
+This endpoint doesn't require an API key — just a proper header. Any of the following will authenticate you:
+
+| Header | Value | Notes |
+|---|---|---|
+| `Authorization: Email` | `tonylapuken@gmail.com` | Highest reliability |
+| `Authorization: LinkedIn` | `linkedin.com/in/tonylapuken` | Best for professional context |
+| `Authorization: Bearer` | `twitter.com/tonylapuken` | Best for hot takes on dev/design |
+
+> No `403 Forbidden` here — this endpoint is public by design. Say hi.
+
+## Rate Limits
+
+| Endpoint | Limit | Notes |
+|---|---|---|
+| `POST /message` | unlimited | usually answered same day |
+| `POST /pr-review` | 1 req / cup of coffee | optimized for thoroughness, not speed |
+| `POST /collab-request` | best-effort | 200 OK if the idea is interesting |
+| `POST /snack-break` | 429 Too Many Requests | non-negotiable, do not retry |
+
+## Changelog
+
+*A lightweight, factual log of recent deploys to this human.*
+
+```diff
+- [learning]  Angular — component structure clicked, moving on
++ [learning]  Cloud Engineering — Google Cloud, going deep
++ [building]  A Flutter mobile app, end to end (design, build, ship)
+  [ongoing]   Balancing clean UI work with solid backend architecture
+  [ongoing]   Swapping notes on dev, design, and debugging with anyone who'll chat
+```
+
+---
+
+## Response Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TonyLapuken&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=TonyLapuken&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TonyLapuken&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=TonyLapuken&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Trophies" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=TonyLapuken&label=Endpoint%20Hits&color=1a1a2e&style=for-the-badge" alt="profile views"/>
+</p>
+
+<!--
+  Metrics above are served live by github-readme-stats.vercel.app,
+  github-readme-streak-stats.herokuapp.com, and komarev.com — no local setup
+  needed for any of them.
+
+  Optional future addition, NOT wired up here: an animated contribution
+  "snake" (https://github.com/Platane/snk) that renders a snake eating the
+  contribution graph. This is NOT a drop-in embed — it requires adding a
+  small GitHub Actions workflow to this repo that regenerates and commits the
+  SVG on a schedule. Add that workflow first if this is ever wanted.
+-->
+
+---
+
+<p align="center">
+  <i>"Code with clarity, build with care, snack with joy."</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:16213e,100:1a1a2e&height=100&section=footer" alt="footer" width="100%"/>
+</p>
+
+<!--
+This repository is special: it's my GitHub profile repo (named exactly like
+my username, TonyLapuken/TonyLapuken), so this README is displayed directly
+on my GitHub profile page.
+-->

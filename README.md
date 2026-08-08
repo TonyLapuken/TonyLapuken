@@ -3,11 +3,11 @@
 
 <!--
   ASSUMPTION: GitHub username is unconfirmed. This README uses "TonyLapuken"
-  for every dynamic badge/service URL (readme-typing-svg, github-readme-stats,
-  streak-stats, trophy, komarev, and every github.com/TonyLapuken link) because
-  it matches the pattern of the other confirmed handles: tonylapuken@gmail.com,
-  linkedin.com/in/tonylapuken, twitter.com/tonylapuken. If the real GitHub
-  handle differs, swap every "TonyLapuken" occurrence in this file.
+  for the animated typing-SVG banner and every github.com/TonyLapuken link
+  because it matches the pattern of the other confirmed handles:
+  tonylapuken@gmail.com, linkedin.com/in/tonylapuken, twitter.com/tonylapuken.
+  If the real GitHub handle differs, swap every "TonyLapuken" occurrence
+  in this file.
 -->
 
 <p align="center">
@@ -197,36 +197,36 @@ This endpoint doesn't require an API key — just a proper header. Any of the fo
 
 ---
 
-## Response Metrics
+## Errors You Might Get
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TonyLapuken&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=TonyLapuken&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
-</p>
+`GET /tony` is stable in production, but a few edge cases still return non-200s. Known error states, documented below so you don't file a duplicate issue.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TonyLapuken&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
-</p>
+| Status | Name | Cause |
+|---|---|---|
+| `300` | Multiple Choices | Asking which job title is the "real" one. `UI Crafter`, `Backend Tamer`, `Code Snacker`, `End-to-End Mobile Dev` — all valid representations of the same resource. Content negotiation depends on which layer broke today. |
+| `403` | Forbidden | Request to skip the architecture and "just hack it in before the demo." Endpoint exists, access denied on principle, appeal process is a 20-minute refactor conversation. |
+| `404` | Not Found | A day with no side project open in a second VS Code window. Reported by multiple witnesses, never reproduced. |
+| `408` | Request Timeout | Waiting on a straight answer to "React or Angular?" Connection closes before a verdict — there isn't one, it's resolved per-project, not per-opinion. |
+| `409` | Conflict | Two priorities at once: shipping the Flutter app end-to-end and going deep on Google Cloud this month. Both branches stay open; merge happens on weekends. |
+| `418` | I'm a Teapot | Asking whether "Fullsnack Developer" is just a pun. Confirmed: it is a pun, and also an accurate job description — full-stack under load, snack-stack at all other times. |
+| `422` | Unprocessable Entity | A bug report that says "it's broken." Request is well-formed but missing required fields: steps to reproduce, expected result, a screenshot. |
+| `425` | Too Early | Asking for a ship date on the Flutter app before the architecture's settled. The request arrived before the server was ready to commit — check back once the data layer's decided, not before. |
+| `503` | Service Unavailable | Heads-down on a hard bug, output temporarily paused for everything that isn't the stack trace in front of him. Service resumes automatically once root cause is found. |
+| `508` | Loop Detected | Asked to explain, again, how "learning Cloud Engineering" and "building a mobile app" and "maintaining a backend" fit in the same week. It's not a contradiction — it's just the stack. |
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TonyLapuken&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Trophies" />
-</p>
+<details>
+<summary>Example error response</summary>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TonyLapuken&label=Endpoint%20Hits&color=1a1a2e&style=for-the-badge" alt="profile views"/>
-</p>
+```json
+{
+  "status": 503,
+  "error": "Service Unavailable",
+  "message": "Currently isolating a bug. All non-urgent requests will be processed after root cause is confirmed.",
+  "retry_after": "root_cause_found = true"
+}
+```
 
-<!--
-  Metrics above are served live by github-readme-stats.vercel.app,
-  github-readme-streak-stats.herokuapp.com, and komarev.com — no local setup
-  needed for any of them.
-
-  Optional future addition, NOT wired up here: an animated contribution
-  "snake" (https://github.com/Platane/snk) that renders a snake eating the
-  contribution graph. This is NOT a drop-in embed — it requires adding a
-  small GitHub Actions workflow to this repo that regenerates and commits the
-  SVG on a schedule. Add that workflow first if this is ever wanted.
--->
+</details>
 
 ---
 
